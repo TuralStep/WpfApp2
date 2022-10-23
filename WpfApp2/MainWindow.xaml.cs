@@ -82,7 +82,8 @@ namespace WpfApp2
                     _ => string.Empty
                 };
 
-                labelAdjustment(symbolStr);
+                if (char.IsNumber(lbl_result.Text.Last()))
+                    labelAdjustment(symbolStr);
                 anySymbol = true;
 
             }
@@ -101,7 +102,7 @@ namespace WpfApp2
                 if (lbl_result.Text.Length == 1)
                 {
                     labelAdjustment("0", true);
-                    anySymbol= false;
+                    anySymbol = false;
                 }
                 else
                     labelAdjustment(lbl_result.Text.Remove(lbl_result.Text.Length - 1), true);
