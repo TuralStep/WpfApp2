@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icons8-clear-symbol-96.png" />
+    <None Remove="icons8-divide-50 %281%29.png" />
+    <None Remove="icons8-equal-sign-96.png" />
+    <None Remove="icons8-menu-24.png" />
+    <None Remove="icons8-multiply-96.png" />
+    <None Remove="icons8-plus-math-96.png" />
+    <None Remove="icons8-subtract-96.png" />
+    <None Remove="icons8-time-machine-24.png" />
+    <None Remove="icons8-upvote-downvote-96.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Pictures\icons8-upvote-downvote-96.png" />
+    <Resource Include="Pictures\icons8-equal-sign-96.png" />
+    <Resource Include="Pictures\icons8-plus-math-96.png" />
+    <Resource Include="Pictures\icons8-subtract-96.png" />
+    <Resource Include="Pictures\icons8-multiply-96.png" />
+    <Resource Include="Pictures\icons8-clear-symbol-96.png" />
+    <Resource Include="Pictures\icons8-divide-50 %281%29.png" />
+    <Resource Include="Pictures\icons8-menu-24.png" />
+    <Resource Include="Pictures\icons8-time-machine-24.png" />
+  </ItemGroup>
+
+</Project>
